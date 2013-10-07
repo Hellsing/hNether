@@ -127,6 +127,9 @@ public class Nether extends JavaPlugin implements Listener
 
                                         if (DEBUG)
                                             printLine(Level.INFO, "Alternated teleport location for player '" + event.getPlayer().getName() + "'!");
+
+                                        // Break the for loop
+                                        break;
                                     }
                                 }
 
