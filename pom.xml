@@ -7,8 +7,9 @@
 
 	<repositories>
 		<repository>
-			<id>bukkit-repo</id>
-			<url>http://repo.bukkit.org/content/groups/public/</url>
+			<id>hellsing-repo</id>
+			<name>Hellsing Repository</name>
+			<url>http://repo.hellsing.eu/content/groups/public</url>
 		</repository>
 	</repositories>
 
@@ -16,13 +17,13 @@
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
-			<version>1.6.2-R1.1-SNAPSHOT</version>
+			<version>1.6.4-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>0.12.0</version>
+			<version>1.12.2</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
